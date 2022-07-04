@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header{
+   background-image: url(image-hero.jpg);
+    background-size: cover;
+    height: 700px;
+    color:white;
+}
+p1{
+    margin-left: 10%;
+    font-size: clamp(2rem, 1.6382rem + 1.9298vw, 3.375rem);
+color:white;
+}
+p{
+    font-family: monospace;
+    font-size: clamp(1rem, 0.3082rem + 0.2098vw, 2rem);
+    margin-left: 10%;
+    color:lemonchiffon;
+    letter-spacing: 5px;
+}
+h2{
+    font-family: monospace;
+    font-size: clamp(2rem, 1.6382rem + 1.9298vw, 3.375rem);
+color:white;
+    margin-left: 10%;
+}
+p3{
+    margin-left: 10%;
+    
+}
+button{
+  position: absolute;
+  background-color:orangered;
+  color: #fff;
+  border:none;
+    height: 50px;
+    width:150px;
+margin-left: 10%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 255px 255px 255px;
+    grid-template-rows: 270px;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
+    grid-gap: 190px;
+  
+}
+      a:link {
+  color: black;
+                background-color: transparent;
+  text-decoration: none;
+}
+.grid1{
+   background-color: lightgrey;
+    text-align: center;
+        font-family: monospace;
+}
+.grid2{
+   background-color: lightgrey; 
+    text-align: center;
+        font-family: monospace;
+}
+.grid3{
+   background-color: lightgrey; 
+    text-align: center;
+    font-family: monospace;
+}
+p6{
+    color: black;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:388px;
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+    grid-gap:50px;
+}
+.grid4{
+    background-color: #e4702e;
+    width: 100%;
+    
+}
+.grid5{
+    background-color: darkgrey;
+    width: 100%;
+    
+}
+h3{
+    color:black;
+    font-family: monospace;
+    text-align: left;
+    font-size: clamp(2rem, 1.6382rem + 1.9298vw, 3.375rem);
+}
+p4
+{
+    color:white;
+    font-family: serif;
+    text-align: left;
+    margin-bottom: 200px;
+}
+p7{
+    text-align: left;
+}
+.container3{
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:283px;
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
+    grid-gap:2px;
+}
+.grid6{
+}
+.grid7{
+    background-color: #e1e3e3;
+    height: 344px;
+}
+p8{
+    color:black;
+    font-family: monospace;
+    text-align: left;
+    font-size: clamp(2rem, 1.6382rem + 1.9298vw, 3.375rem);
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:300px;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
+    grid-gap:5px;
+}
+
+    
+.testimonial {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  background-color:whitesmoke;
+  padding-block: min(15rem, 15vh);
+}
+
+.testimonial h3 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #a7abae;
+  letter-spacing: 5px;
+}
+
+.testimonial .testimonial-authors {
+  width: 90%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  text-align: center;
+}
+
+.testimonial .testimonial-authors p {
+  color: #818498;
+}
+
+.testimonial .testimonial-authors > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  grid-gap: 2rem;
+  margin: auto;
+  width: min(90%, 20rem);
+}
+
+.testimonial .testimonial-authors img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.testimonial .testimonial-authors .author-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-gap: 0.5rem;
+}
+
+.testimonial .testimonial-authors .author-info span:nth-child(1) {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: #23303e;
+}
+
+.testimonial .testimonial-authors .author-info span:nth-child(2) {
+  color: #a7abae;
+  font-size: 0.8rem;
+}
+footer{
+    font-family: serif;
+    color:white;
+    background-color: black;
+}
+        
